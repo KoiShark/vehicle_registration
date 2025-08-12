@@ -1,0 +1,23 @@
+{
+  "name": "ridery_vehicle_registration_api",
+  "version": "1.0.0",
+  "description": "api to get vehicle data and show it in console",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [
+    "node",
+    "js"
+  ],
+  "author": "joelrivas39@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}

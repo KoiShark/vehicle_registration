@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="partner_view_form_inherit" model="ir.ui.view">
+        <field name="name">view.partner.form.inherit</field>
+        <field name="model">res.partner</field>
+        <field name="inherit_id" ref="base.view_partner_form"/>
+        <field name="arch" type="xml">
+            <xpath expr="//sheet" position="before">
+                <header>
+                    <button name="action_send_vehicle_api" string="Send Vehicles to API" class="oe_highlight" type="object" groups="fleet.fleet_group_manager" data-hotkey="v" attrs="{'invisible': [('vehicle_count', '=', 0)]}"/>
+                </header>
+            </xpath>
+            <div name="button_box" position="inside">
+                <button class="oe_stat_button" type="object" name="action_open_vehicles" icon="fa-car" context="{'driver_id': active_id}">
+                    <field string="Vehicles" name="vehicle_count" widget="statinfo"/>
+                </button>
+            </div>
+        </field>
+    </record>
+</odoo>

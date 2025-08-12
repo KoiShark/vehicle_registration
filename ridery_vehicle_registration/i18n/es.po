@@ -1,0 +1,197 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+# 	* ridery_vehicle_registration
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 16.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2025-08-12 02:13+0000\n"
+"PO-Revision-Date: 2025-08-12 02:13+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: ridery_vehicle_registration
+#: model:ir.ui.menu,name:ridery_vehicle_registration.vehicle_api_log_menu
+msgid "API Log"
+msgstr ""
+
+#. module: ridery_vehicle_registration
+#: model:ir.model,name:ridery_vehicle_registration.model_res_partner
+msgid "Contact"
+msgstr "Contacto"
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_vehicle_api_log__create_uid
+msgid "Created by"
+msgstr ""
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_vehicle_api_log__create_date
+msgid "Created on"
+msgstr ""
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_vehicle_api_log__display_name
+msgid "Display Name"
+msgstr ""
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields.selection,name:ridery_vehicle_registration.selection__vehicle_api_log__status__error
+msgid "Error"
+msgstr ""
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_vehicle_api_log__id
+msgid "ID"
+msgstr ""
+
+#. module: ridery_vehicle_registration
+#: model_terms:ir.actions.act_window,help:ridery_vehicle_registration.vehicle_api_log_action
+msgid "Interact with the API in the contact module."
+msgstr "Interactua con la API desde el modulo de contactos."
+
+#. module: ridery_vehicle_registration
+#. odoo-python
+#: code:addons/ridery_test/vehicle_registration/ridery_vehicle_registration/models/fleet_vehicle.py:0
+#: code:addons/ridery_vehicle_registration/models/fleet_vehicle.py:0
+#, python-format
+msgid "It's mandatory to assign a driver to the vehicle."
+msgstr "Es necesario asignar el conductor."
+
+#. module: ridery_vehicle_registration
+#. odoo-python
+#: code:addons/ridery_test/vehicle_registration/ridery_vehicle_registration/models/fleet_vehicle.py:0
+#: code:addons/ridery_vehicle_registration/models/fleet_vehicle.py:0
+#, python-format
+msgid "It's mandatory to assign a license plate to the vehicle."
+msgstr "Es necesario asignar la licencia del vehículo."
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_vehicle_api_log____last_update
+msgid "Last Modified on"
+msgstr ""
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_vehicle_api_log__write_uid
+msgid "Last Updated by"
+msgstr ""
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_vehicle_api_log__write_date
+msgid "Last Updated on"
+msgstr ""
+
+#. module: ridery_vehicle_registration
+#: model:ir.model,name:ridery_vehicle_registration.model_vehicle_api_log
+msgid "Logs from Vehicle node API"
+msgstr "Logs de la API node"
+
+#. module: ridery_vehicle_registration
+#: model:ir.model,name:ridery_vehicle_registration.model_fleet_vehicle_model
+msgid "Model of a vehicle"
+msgstr "Modelo de un vehículo"
+
+#. module: ridery_vehicle_registration
+#: model_terms:ir.actions.act_window,help:ridery_vehicle_registration.vehicle_api_log_action
+msgid "No logs from API yet."
+msgstr "No hay logs todavía"
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_vehicle_api_log__response_date
+msgid "Response Date"
+msgstr "Fecha de respuesta"
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_vehicle_api_log__name
+msgid "Response Text"
+msgstr "Texto de respuesta"
+
+#. module: ridery_vehicle_registration
+#: model_terms:ir.ui.view,arch_db:ridery_vehicle_registration.partner_view_form_inherit
+msgid "Send Vehicles to API"
+msgstr "Envíar vehículos a API"
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_fleet_vehicle_model__sequence_code
+msgid "Sequence Code"
+msgstr "Código de secuencia"
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_fleet_vehicle_model__short_code
+msgid "Short Code"
+msgstr "Código corto"
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.constraint,message:ridery_vehicle_registration.constraint_fleet_vehicle_model_short_code_unique
+msgid "Short_code must be unique."
+msgstr "El código corto debe ser único."
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_vehicle_api_log__status
+msgid "Status"
+msgstr "Estatus"
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields.selection,name:ridery_vehicle_registration.selection__vehicle_api_log__status__success
+msgid "Success"
+msgstr "Exitoso"
+
+#. module: ridery_vehicle_registration
+#: model:ir.model,name:ridery_vehicle_registration.model_fleet_vehicle
+msgid "Vehicle"
+msgstr "Vehículo"
+
+#. module: ridery_vehicle_registration
+#. odoo-python
+#: code:addons/ridery_test/vehicle_registration/ridery_vehicle_registration/models/res_partner.py:0
+#: code:addons/ridery_vehicle_registration/models/res_partner.py:0
+#, python-format
+msgid "Vehicle API status"
+msgstr "Estatus API Vehículo"
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_res_partner__vehicle_count
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_res_users__vehicle_count
+msgid "Vehicle Count"
+msgstr ""
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_fleet_vehicle__vehicle_sequence
+msgid "Vehicle Sequence"
+msgstr "Sequencia vehículo"
+
+#. module: ridery_vehicle_registration
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_fleet_vehicle__vehicle_image_128
+msgid "Vehicle img"
+msgstr "Imagen vehículo"
+
+#. module: ridery_vehicle_registration
+#: model:ir.actions.server,name:ridery_vehicle_registration.action_update_vehicle_sequence
+msgid "Vehicle: update sequence"
+msgstr "Vehículo: actualizar secuencia"
+
+#. module: ridery_vehicle_registration
+#. odoo-python
+#: code:addons/ridery_test/vehicle_registration/ridery_vehicle_registration/models/res_partner.py:0
+#: code:addons/ridery_vehicle_registration/models/res_partner.py:0
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_res_partner__vehicle_ids
+#: model:ir.model.fields,field_description:ridery_vehicle_registration.field_res_users__vehicle_ids
+#: model_terms:ir.ui.view,arch_db:ridery_vehicle_registration.partner_view_form_inherit
+#, python-format
+msgid "Vehicles"
+msgstr "Vehículo"
+
+#. module: ridery_vehicle_registration
+#: model:ir.actions.act_window,name:ridery_vehicle_registration.vehicle_api_log_action
+msgid "Vehicles Log"
+msgstr "Log API Vehículos"
+
+#. module: ridery_vehicle_registration
+#: model_terms:ir.ui.view,arch_db:ridery_vehicle_registration.fleet_vehicle_model_view_form_inherit
+msgid "e.g. Ag"
+msgstr "ex. AG"

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <record id="fleet_vehicle_model_view_form_inherit" model="ir.ui.view">
+        <field name="name">fleet.vehicle.model.form.inherit</field>
+        <field name="model">fleet.vehicle.model</field>
+        <field name="inherit_id" ref="fleet.fleet_vehicle_model_view_form"/>
+        <field name="arch" type="xml">
+            <div class="oe_title" position="inside">
+                <label for="short_code"/>
+                <h2>
+                    <field name="short_code" placeholder="e.g. Ag" force_save="1" required="1" attrs="{'readonly': [('vehicle_count', '!=', 0), ('short_code', '!=', False)]}"/>
+                    <field name="sequence_code" invisible="1"/>
+                </h2>
+            </div>
+        </field>
+    </record>
+</odoo>
